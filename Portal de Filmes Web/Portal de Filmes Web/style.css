@@ -1,0 +1,234 @@
+body {
+    background-color: #DDD;
+}
+
+.header {
+    background-color: #BBB;
+}
+
+.navbar-nav {
+    align-items: center;
+    text-align: center;
+}
+
+.barra-pesquisa {
+    padding-top: 30px;
+    align-items: center;
+}
+
+.sp-bold {
+    font-weight: bold;
+}
+
+.lancamentos {
+    background-color: #CCC;
+}
+
+.titulo-lancamentos {
+    text-align: center;
+    padding: 25px;
+}
+
+.carousel-item > .container > .row {
+    padding-bottom: 30px;
+    align-items: center;
+    text-align: justify;
+}
+
+.carousel-item p {
+    font-size: 0.9em;
+}
+
+.em-destaque {
+    padding: 0px 100px;
+}
+
+.em-destaque .col-2 {
+    padding-top:20px;
+    align-items: center;
+}
+
+.img-destaque {
+    text-align: center;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+.img-destaque img {
+    width:100%;
+}
+
+.avaliacoes {
+    padding: 0px 100px;
+}
+
+.entrevistas {
+    background-color: #CCC;
+}
+
+.titulo-entrevistas {
+    background-color: #CCC;
+}
+
+.titulo-destaque {
+    padding: 20px 20px;
+    flex-wrap: wrap;
+}
+
+.titulo-avaliacoes {
+    padding: 20px 20px;
+    flex-wrap: wrap;
+}
+
+.titulo-entrevistas {
+    padding: 20px 120px;
+    flex-wrap: wrap;
+}
+
+.titulo-novidades {
+    padding: 20px 20px;
+    flex-wrap: wrap;
+}
+
+.titulo-sobre {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.titulo-editorial {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#carouselExampleIndicators {
+    min-height: 400px;
+}
+
+.foto-avaliador img {
+    width:100%;
+    border-radius: 50%;
+}
+
+.texto-avaliacao {
+    text-align: justify;
+}
+
+.botao-carregar {
+    padding:30px;
+    text-align: right;
+}
+
+.btn-sm {
+    border-radius: 20px;
+}
+
+.navbar-brand > img {
+    width:100px;
+}
+
+.iframe-entrevista {
+    text-align: center;
+}
+
+.card {
+    margin-bottom:20px;
+    background-color: #DDD;
+}
+
+.card-avaliacao {
+    min-height: 270px;
+}
+
+.entrevistas .card {
+    background-color: #CCC;
+}
+
+.card4 {
+    display: none;
+}
+
+.texto-redes {
+    font-size: 2em;
+}
+
+.texto-redes a {
+    color: #212529;
+}
+
+.footer {
+    padding:30px;
+    align-items: center;
+    background-color: #CCC;
+    align-content: center;
+}
+
+.texto-rodape {
+    margin-top: 10px;
+}
+
+.logo-fim {
+    width:75px;
+}
+
+@media screen and (max-width:1199px) {
+    .barra-menu {
+        display:none;
+    }
+
+    .carousel-item > .container > .row {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .navbar-collapse {
+        margin-left: 100px;
+    }
+
+    .avaliacoes {
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .navbar-collapse {
+        margin-left: 190px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .navbar-collapse {
+        margin-left: 270px;
+    }
+}
+
+@media screen and (max-width:1399px) {
+    .card4 {
+        display:block;
+    }
+
+    .entrevistas {
+        padding: 0px 100px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .entrevistas {
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .entrevistas {
+        padding: 10px;
+    }
+
+    .imagem-novidade {
+        text-align: center;
+    }
+}
+.texto-rodape{
+    text-align: center;
+
+
+}
